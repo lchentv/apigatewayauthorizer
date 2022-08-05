@@ -1,0 +1,50 @@
+{
+    "type": "REQUEST",
+    "methodArn": "arn:aws:execute-api:eu-central-1:544572852342:dev/v1/coporate/GET/request",
+    "resource": "/request",
+    "path": "/request",
+    "httpMethod": "GET",
+    "headers": {
+      "X-AMZ-Date": "20170718T062915Z",
+      "Accept": "*/*",
+      "HeaderAuth1": "headerValue1",
+      "AuthorizationToken": "dyJraWQiOiI3b2dJZzFIR2hoNVV4NTlBRGRSY0Q4VWdPdGJNVTFCT1ArWW95Zjh2ajRnPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0Njc1YzdkMS1kNDUzLTRmYmEtOGRiNy0yZmIxMGRkZjg0ODEiLCJldmVudF9pZCI6ImY1NDJhNGFiLTE0OTctNDZkMi05Yzg5LTI1NGJjMTBiZWU4MCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTk3MjM4ODYsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX1FlTExwU2lURCIsImV4cCI6MTY1OTcyNzQ4NiwiaWF0IjoxNjU5NzIzODg2LCJqdGkiOiJhMjhmNWEyMC0zOGIyLTRhZDctYjNhMi05YTk1MzNkNDQ5ZWEiLCJjbGllbnRfaWQiOiI0dTAzaTJyM2pqcjZhcGNmcGhoOHFjOXBnNiIsInVzZXJuYW1lIjoiNDY3NWM3ZDEtZDQ1My00ZmJhLThkYjctMmZiMTBkZGY4NDgxIn0.qaQXuiT-4NeCMdWxoV_keeM21oKvxqOG-eKRYI_9aTaGetJtDxjjHYIDtamDzPILfFaSaEOb97ybvvl_jSO1ITvcuSZBAFmknyaf0uEFHT02JvhgSH7VXdK-RQpCjaoUO8Dp7UD_bxw-GYwRk1GbNrQuVIFEUggtqpoR67cLlFxRJ8wvJe-T9CicWdBaVSDpRMMu_0Wt0H0cqoSBDs6x-ebAO_E7_PvkLJLaeEohvi-rtHT0xu6hqSdNX3kRfM8zcdSdSeeEM0El71RTANOf4ryMGebkmn8K-RE1-6Q6dq9rGOzKt0aTZmlymNf85vtRn9UUQ9lG52uV_LSSmCQtYw",
+      "Email": "demolic66@yopmail.com",
+      "CloudFront-Viewer-Country": "US",
+      "CloudFront-Forwarded-Proto": "https",
+      "CloudFront-Is-Tablet-Viewer": "false",
+      "CloudFront-Is-Mobile-Viewer": "false",
+      "User-Agent": "..."
+    },
+    "queryStringParameters": {
+      "QueryString1": "queryValue1"
+    },
+    "pathParameters": {},
+    "stageVariables": {
+      "StageVar1": "stageValue1"
+    },
+    "requestContext": {
+      "path": "/request",
+      "accountId": "123456789012",
+      "resourceId": "05c7jb",
+      "stage": "test",
+      "requestId": "...",
+      "identity": {
+        "apiKey": "...",
+        "sourceIp": "...",
+        "clientCert": {
+          "clientCertPem": "CERT_CONTENT",
+          "subjectDN": "www.example.com",
+          "issuerDN": "Example issuer",
+          "serialNumber": "a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1",
+          "validity": {
+            "notBefore": "May 28 12:30:02 2019 GMT",
+            "notAfter": "Aug  5 09:36:04 2021 GMT"
+          }
+        }
+      },
+      "resourcePath": "/request",
+      "httpMethod": "GET",
+      "apiId": "abcdef123"
+    }
+  }
